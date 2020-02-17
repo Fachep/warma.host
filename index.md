@@ -9,5 +9,5 @@
 
 <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
 <script>
-function(){$.ajax({url: 'https://api.bilibili.com/x/space/acc/info?mid=53456&jsonp=jsonp',success: function(j){if (j.code==0 && j.data.is_followed=true) {$('#tag')[0].src='/y.svg';$('#tag')[0].alt='已关注';}}})}();
+(function(){$.ajax({url: 'https://api.bilibili.com/x/space/acc/info?mid=53456&jsonp=jsonp',success: function(j){if (j.code==0 && j.data.is_followed=true) {$('#tag')[0].src='/y.svg';$('#tag')[0].alt='已关注';}}})})();
 </script>
