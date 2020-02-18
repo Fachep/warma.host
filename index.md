@@ -1,8 +1,7 @@
-<title>War滴ma鸭</title>
 <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
 <style>
 body{background-image:url("spider.webp");background-attachment:scroll;background-repeat:no-repeat;background-position:top right;background-size:128px;}
-footer{position:fixed;bottom:16px;text-align:center;width:99%}
+footer{position:fixed;bottom:16px;}
 </style>
 <audio autoplay="autoplay">
 <source src="spider.mp3" type="audio/mpeg" />
